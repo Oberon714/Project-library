@@ -30,7 +30,7 @@ class Library {
 
   // Function to add books to the library and display them in the HTML
   addBookToLibrary() {
-    this.libraryDisplay.innerHTML = ""; // Clear previous display
+    this.libraryDisplay.innerHTML = "";
 
     this.myLibrary.forEach((book, index) => {
       const bookRow = document.createElement("div");
